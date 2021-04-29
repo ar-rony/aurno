@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"scss/style.scss",
+		"scss/utilities/_utilities.scss",
+		"scss/utilities/_mixins.scss",
+		"scss/utilities/_variables.scss",
+		"scss/base/_base.scss",
+		"scss/base/_reset.scss",
+		"scss/components/_components.scss",
+		"scss/components/_header.scss"
+	],
+	"names": [],
+	"mappings": "AAAA;;;;;;;;;;;;;;;EAeE;AAEF;;;;;;;;;;;;;;;;;;;;;;;gEAuBgE;AAGhE;;gEAEgE;AAGhE;;gEAEgE;AKlDhE,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAA;EACL,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AACD,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;EAChB,wBAAwB,EAAE,IAAI;CACjC;;AACD,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,GAAG;CACnB;;ALwCD;;gEAEgE;AOvDhE;;gEAEgE;AAChE,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;CAChB"
+}
