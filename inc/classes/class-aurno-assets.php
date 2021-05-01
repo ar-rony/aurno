@@ -1,4 +1,5 @@
 <?php
+
 class Assets {
     use Singleton;
     public function __construct(){        
