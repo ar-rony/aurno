@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ar-rony/aurno/issues"
   },
-  "homepage": "https://github.com/ar-rony/aurno#readme"
+  "homepage": "https://github.com/ar-rony/aurno#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
