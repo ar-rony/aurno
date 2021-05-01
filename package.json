@@ -1,27 +1,11 @@
 {
-  "name": "aurno",
+  "name": "blognow",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wordpress blogging theme",
   "main": "index.js",
   "scripts": {
     "watch": "node-sass -w --output-style=expanded --source-map=true scss/style.scss ./style.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ar-rony/aurno.git"
-  },
-  "keywords": [
-    "['WordPress'",
-    "'Theme'",
-    "]"
-  ],
-  "author": "ar-rony",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ar-rony/aurno/issues"
-  },
-  "homepage": "https://github.com/ar-rony/aurno#readme",
-  "dependencies": {
-    "node-sass": "^5.0.0"
-  }
+  "author": "AR Rony",
+  "license": "ISC"
 }

@@ -1,58 +1,20 @@
 /*
-Theme Name: aruno
-Theme URI: https://github.com/ar-rony/aurno
-Author: AR Rony
+Theme Name: Aurno WordPress Theme
+Auhor: AR Rony
 Author URI: https://github.com/ar-rony
-Description: Aurno wordpress theme is a starting theme for your blogging and small business. You can use this theme also for your customization and freedom.
+Textdomain: aurno
 Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: aruno
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-This theme, like WordPress, is licensed under the GPL.
-
+Description: This is a simple wordpess theme
 */
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
+/*-------------------------------------
+#Reset Browser CSS
+--------------------------------------*/
 
-# Utilities
-	- Mixins
-	- Variables
-    
-# Base
-    - Reset
-	- Typography
-	- Elements
-	- Links
-	- Forms
-
-# Components
-	- Navigation
-	- Posts and pages
-	- Comments
-	- Widgets
-	- Media
-	- Captions
-	- Galleries
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Utilities
---------------------------------------------------------------*/
-@import "./utilities/utilities";
-
-/*--------------------------------------------------------------
-# Base
---------------------------------------------------------------*/
-@import "./base/base";
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-@import "./components/components";
-
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

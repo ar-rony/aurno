@@ -2,10 +2,10 @@
 /**
  * Autoloader file for theme.
  *
- * @package Aurno
+ * @package Blognow
  */
 
-namespace AURNO_THEME\Inc\Helpers;
+namespace BLOGNOW\Inc\Helpers;
 
 /**
  * Auto loader function.
@@ -16,7 +16,7 @@ namespace AURNO_THEME\Inc\Helpers;
  */
 function autoloader( $resource = '' ) {
 	$resource_path  = false;
-	$namespace_root = 'AURNO_THEME\\';
+	$namespace_root = 'BLOGNOW\\';
 	$resource       = trim( $resource, '\\' );
 
 	if ( empty( $resource ) || strpos( $resource, '\\' ) === false || strpos( $resource, $namespace_root ) !== 0 ) {
@@ -68,7 +68,7 @@ function autoloader( $resource = '' ) {
 				break;
 		}
 
-		$resource_path = sprintf( '%s/inc/%s/%s.php', untrailingslashit( AQUILA_DIR_PATH ), $directory, $file_name );
+		$resource_path = sprintf( '%s/inc/%s/%s.php', untrailingslashit( 'BLOGNOW_DIR_PATH' ), $directory, $file_name );
 
 	}
 
@@ -84,4 +84,4 @@ function autoloader( $resource = '' ) {
 
 }
 
-spl_autoload_register( '\AURNO_THEME\Inc\Helpers\autoloader' );
+spl_autoload_register( '\BLOGNOW\Inc\Helpers\autoloader' );
