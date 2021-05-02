@@ -17,15 +17,18 @@ if(!defined('AURNO_DIR_URI')){
  */
 require_once AURNO_DIR_PATH. '/vendor/autoload.php';
 use AURNO\THEME\Traits\Singleton;
-
+use AURNO\THEME\Classes\Setup;
+use AURNO\THEME\Classes\Assets;
+use AURNO\THEME\Classes\Widgets;
+use AURNO\THEME\Classes\Menus;
 class AURNO {
     use Singleton;
     public function __construct(){        
         // Load Classes
-        AURNO\THEME\Classes\Setup::get_instance();
-        AURNO\THEME\Classes\Assets::get_instance();
-        AURNO\THEME\Classes\Widgets::get_instance();
-        AURNO\THEME\Classes\Menus::get_instance();
+        Setup::get_instance();
+        Assets::get_instance();
+        Widgets::get_instance();
+        Menus::get_instance();
     }
 }
 AURNO::get_instance();
