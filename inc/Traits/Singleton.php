@@ -1,4 +1,5 @@
 <?php
+namespace AURNO\THEME\Traits;
 trait Singleton {
     public static function get_instance(){
         static $instance= [];

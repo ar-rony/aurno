@@ -1,0 +1,17 @@
+{
+    "name": "aurno/theme",
+    "description": "A wordperss theme",
+    "authors": [
+        {
+            "name": "AR Rony",
+            "email": "rony87official@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AURNO\\THEME\\": "inc/"
+        }
+    }
+
+}

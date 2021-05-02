@@ -1,4 +1,6 @@
 <?php
+namespace AURNO\THEME\Classes;
+use AURNO\THEME\Traits\Singleton;
 class Menus{
     use Singleton;
     public function __construct(){        
