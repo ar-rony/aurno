@@ -1,5 +1,6 @@
 <?php
-
+namespace AURNO\THEME\Classes;
+use AURNO\THEME\Traits\Singleton;
 class Assets {
     use Singleton;
     public function __construct(){        
