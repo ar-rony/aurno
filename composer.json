@@ -1,6 +1,7 @@
 {
     "name": "aurno/theme",
     "description": "A wordperss theme",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "AR Rony",
