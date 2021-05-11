@@ -9,9 +9,9 @@ use AURNO\THEME\Traits\Singleton;
 class Setup{
     use Singleton;
     public function __construct(){        
-        add_action('after_setup_theme', [$this, 'blognow_setup']);
+        add_action('after_setup_theme', [$this, 'aurno_setup']);
     }
-    public function blognow_setup(){
+    public function aurno_setup(){
         /*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
